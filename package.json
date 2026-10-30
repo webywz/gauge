@@ -64,5 +64,13 @@
     "//@npmcli/template-oss": "This file is partially managed by @npmcli/template-oss. Edits may be overwritten.",
     "version": "4.22.0",
     "publish": "true"
+  },
+  "exports": {
+    ".": "./lib/index.js",
+    "./package.json": "./package.json",
+    "./themes": "./lib/themes.js",
+    "./theme-set": "./lib/theme-set.js",
+    "./plumbing": "./lib/plumbing.js",
+    "./lib/*": "./lib/*"
   }
 }
